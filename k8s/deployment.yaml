@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello-quotes-k8s
-          image: 783623/kodilla-quotes:1.0
+          image: 783623/kodilla-quotes:2.0
           ports:
             - containerPort: 8080
           readinessProbe:
